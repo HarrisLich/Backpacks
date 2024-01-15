@@ -1,0 +1,22 @@
+name: Backpacks
+version: '1.0-SNAPSHOT'
+main: de.harrisblog.backpacks.Backpacks
+api-version: '1.20'
+commands:
+  bp:
+    usage: /bp
+permissions:
+  bp.*:
+    children:
+      - bp.reload
+      - bp.reset
+      - bp.clear
+      - bp.help
+  bp.reload:
+    description: /bp reload
+  bp.reset:
+    description: /bp reset [player]
+  bp.clear:
+    description: /bp clear [player]
+  bp.help:
+    description: /bp help

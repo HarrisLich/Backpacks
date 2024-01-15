@@ -1,0 +1,26 @@
+messages:
+  on_bp_reset: "Backpack successfully reset"
+  on_bp_clear: "Backpack successfully cleared"
+  reload: "&aBackpacks successfully reloaded"
+  max_backpacks: "&cYou have already crafted the maximum allowed number of backpacks!"
+  on_nest_backpack: "&cYou cannot put a backpack inside another backpack!"
+  on_try_stealing: "&cYou cannot claim a backpack that is not yours!"
+  help:
+    - "&aBackpacks"
+    - "&7--------"
+    - "&aBackpacks: &7/bp reload -> reload config "
+    - "&aBackpacks: &7/bp reset [player] -> reset a players backpacks"
+    - "&aBackpacks: &7/bp clear [player] -> clear a players backpacks"
+options:
+  keep_on_death: "true"
+  max_backpacks: 5
+  nest_backpacks: "false"
+  disable_backpack_stealing: "true"
+backpack:
+  display_name: "&aBackpack"
+  inventory_title: "&8Backpack"
+  lore:
+    - ""
+    - "&7(Right-Click) to open"
+  material: "CHEST"
+
